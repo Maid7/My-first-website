@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Questrial", sans-serif;
+}
+:root {
+  --main-color: #758ecd;
+  --hover-color: #7189ff;
+  --body-color: #fcfeff;
+  --container-color: #624cab;
+  --text-color: #a0ddff;
+}
+section {
+  padding: 60px 0;
+  transition: transform 1s, opacity 1s;
+}
+.navbar {
+  z-index: 1;
+}
+.bi {
+  /* border: 1px solid var(--text-color); */
+  margin-bottom: 10px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+.lazy-img {
+  filter: blur(20px);
+}
+/* SLIDER */
+
+.slider {
+  max-width: 60rem;
+  height: 30rem;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 10;
+  width: 100%;
+  height: 90vh;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+}
+
+.slide > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider__btn {
+  position: absolute;
+  top: 50%;
+  /* z-index: 10; */
+  border: none;
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.slider__btn--left {
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.slider__btn--right {
+  right: 6%;
+  transform: translate(50%, -50%);
+}
+/* ////////////////// */
+/* Program Izracunavanja Cijene */
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+/* /////////////// */
+/* Modal */
+
+.modal__form {
+  margin: 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.modal__form input {
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgb(90, 81, 215);
+  border-radius: 0.5rem;
+}
+
+/* Footer */
+#footer {
+  background: #e8f1f5;
+}
+
+/* Tabbed component */
+.operations {
+  max-width: 70rem;
+  margin: 12rem auto 0 auto;
+  background-color: #fff;
+}
+
+.operations__tab-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.operations__tab {
+  margin-right: 1.5rem;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.operations__tab span {
+  margin-right: 1rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.operations__tab--active {
+  transform: translateY(-66%);
+}
+
+.operations__content {
+  display: none;
+  /* border: 2px solid grey; */
+  background: #e8f1f5;
+  height: 400px;
+  margin-top: -40px;
+}
+
+.operations__content--active {
+  display: block;
+}
+
+.operations__content p {
+  grid-column: 2;
+}
+
+/* Sticky navbar */
+.sticky {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+}
+/* Reveal sections */
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}

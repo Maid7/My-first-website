@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTS Keramicar</title>
+    <!-- Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand fs-4" href="#Pocetna">BTS Keramicar</a>
+          <ul class="navbar-nav fs-6 me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Pocetna"
+                >Pocetna</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link o-nama" href="#Onama">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Cijena">Cijena</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Radovi">Radovi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Kontakt">Kontakt</a>
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            class="btn btn-info"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Kontaktirajte Nas
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Main image & intro text -->
+    <section id="Pocetna" class="section">
+      <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display display-2 text-info">Trebate Keramicara?</div>
+              <div class="display display-5 text-muted">
+                Na Pravom Ste Mjestu
+              </div>
+            </h1>
+            <p class="lead my-4 text-muted">
+              Tim specijaliziran za sve keramicarske radove,adaptacije kuca i
+              stanova
+            </p>
+            <button
+              type="button"
+              class="btn btn-info"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Kontaktirajte Nas
+            </button>
+          </div>
+          <div class="col-md-5 text-center d-none d-md-block">
+            <img
+              class="img-fluid"
+              src="slike/image-one.jpg"
+              width="400px"
+              height="400px"
+              alt="keramika"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //////////////////////// -->
+    <!-- O nama Section -->
+    <section id="Onama" class="section section-1">
+      <div class="container-lg py-5">
+        <h1 class="text-center px-5 text-info">O nama</h1>
+        <p class="text-muted px-5 text-center h3">
+          Keramičke pločice jedan su od najboljih izbora za zidove i podove u
+          kuhinji i kupaonici
+        </p>
+        <div class="row py-5 justify-content-center align-items-center">
+          <div class="col-md-5 text-center d-md-block">
+            <img
+              class="img-fluid shadow-lg rounded features__img lazy-img"
+              src="lowQualityImgs/image-one-one.jpg"
+              data-src="slike/image-one.jpg"
+              width="400px"
+              height="400px"
+              alt="keramika"
+            />
+          </div>
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display-6 px-5 py-5 text-muted">
+                <i class="bi bi-hammer mx-1 bg-info"></i>
+                <p class="lead my-2 text-muted">
+                  Popis usluga: <br />
+                  -Postavljanje pločica <br />
+                  -Skidanje pločica <br />
+                  -Fugiranje
+                </p>
+              </div>
+            </h1>
+          </div>
+        </div>
+        <div class="row py-5 justify-content-center align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display-6 text-muted">
+                <i class="bi bi-layers bg-info"></i>
+                <p class="lead my-4 text-muted">
+                  Naš vrhunski tim keramičara nudi Vam: <br />
+                  Sve Vrste Keramičarskih (Postavljanje Pločica, Skidanje
+                  Pločica, Fugiranje) <br />
+                  Hidroizolacijskih (Hidroizolacija Terasa, Kupaonica) <br />
+                  Završnih Radova (Gletanje, Ličilaćki Radovi)
+                </p>
+              </div>
+            </h1>
+          </div>
+          <div class="col-md-5 text-center d-md-block">
+            <img
+              class="img-fluid shadow-lg rounded features__img lazy-img"
+              src="lowQualityImgs/image-two-two.jpg"
+              data-src="slike/image-two.jpg"
+              width="400px"
+              height="400px"
+              alt="keramika"
+            />
+          </div>
+        </div>
+        <div class="row py-5 justify-content-center align-items-center">
+          <div class="col-md-5 text-center d-md-block">
+            <img
+              class="img-fluid shadow-lg rounded features__img lazy-img"
+              src="lowQualityImgs/image-one-one.jpg"
+              data-src="slike/image-one.jpg"
+              width="400px"
+              height="400px"
+              alt="keramika"
+            />
+          </div>
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display-6 my-4 text-muted">
+                <i class="bi bi-menu-button-wide-fill my-1 bg-info"></i>
+                <p class="lead my-4 text-muted">
+                  Kvalitetno i stručno postavljanje svih dimenzija keramike.
+                  <br />
+                  Postava keramike velikog formata do 332cm. <br />
+                  Mlada ekipa sa iskustnim majstorom garantira kvalitetu
+                  postavljanja keramike.
+                </p>
+              </div>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //////////////////////// -->
+    <!-- Izracunavanje Cijene -->
+    <section id="Cijena" class="section">
+      <div class="container-lg">
+        <h1 class="text-center my-3 text-info">Izracunavanje Cijene</h1>
+        <p class="text-muted text-center h3">
+          Cijena zavisi broja kvadrata i dimenziji plocica.Izracunajte cijenu
+          <i class="bi bi-arrow-down text-dark"></i>
+        </p>
+
+        <div class="input-group input-group-lg py-5">
+          <span class="input-group-text my-2" id="inputGroup-sizing-lg"
+            >Unesite Broj Kvadrature</span
+          >
+          <input
+            type="text"
+            class="form-control input--amount"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-lg"
+          />
+        </div>
+        <button
+          type="button"
+          class="btn-submit-1 my-2 btn btn-lg btn-outline-info"
+        >
+          Sljedeci Korak
+        </button>
+        <!-- 2 -->
+        <div class="form-floating my-5 hidden">
+          <select
+            class="form-select my-select"
+            id="floatingSelect"
+            aria-label="Floating label select example"
+          >
+            <option value="0">30cm x 30cm</option>
+            <option value="1">30cm x 60cm</option>
+            <option value="2">60cm x 120cm</option>
+          </select>
+          <label for="floatingSelect">Dimenzije plocica</label>
+        </div>
+        <button
+          type="button"
+          class="hidden btn-submit-2 btn btn-lg btn-outline-info"
+        >
+          Rezultat
+        </button>
+        <!-- 3 -->
+        <div
+          class="hidden py-3 px-3 hidden2 final-result outline-primary rounded"
+        >
+          <h1></h1>
+        </div>
+      </div>
+    </section>
+    <!-- /////////////////////////// -->
+    <!-- Tabbed component -->
+    <section id="Opis-Radova" class="section">
+      <div class="container-fluid">
+        <div class="section__title">
+          <h2 class="section__description text-center text-info">Usluge</h2>
+          <h3 class="section__header text-center text-muted">
+            Keramičke pločice treba postaviti na podlogu koja je glatka, ravna,
+            čvrsta i čista.
+          </h3>
+        </div>
+
+        <div class="operations">
+          <div class="operations__tab-container px-  text-center">
+            <button
+              class="btn operations__tab operations__tab--1 operations__tab--active bg-info"
+              data-tab="1"
+            >
+              <span>01</span>Skidanje Plocica
+            </button>
+            <button
+              class="btn operations__tab operations__tab--2 bg-info"
+              data-tab="2"
+            >
+              <span>02</span>Postavljanje Plocica
+            </button>
+            <button
+              class="btn operations__tab operations__tab--3 bg-info"
+              data-tab="3"
+            >
+              <span>03</span>Fugovanje Plocica
+            </button>
+          </div>
+          <div
+            class="operations__content operations__content--1 operations__content--active text-center"
+          >
+            <h5 class="operations__header text-dark py-4 text-center">
+              Skidanje Plocica
+            </h5>
+            <p class="text-dark h4">
+              Popravak u kuci ili stanu ponekad je sugerirao da se prvo mora
+              rijesiti predhodnih slojeva plocica u sanitarnoj jedinici ili
+              kuhinji.To je ne samo za zidne plocice,ali i za podne.Pristup
+              pitanja uklanjanja plocica od poda ili zida treba pazljivo
+              pripreti naoruzani raznim instrumentima.Pitanje kako ukloniti
+              plocice,ne nastaju.Jedini aspekt koji treba uzeti u obzir prilikom
+              skidanja plocica-to je ono sta ce ostati nakog ovog procesa.
+            </p>
+          </div>
+
+          <div class="operations__content operations__content--2">
+            <h5 class="operations__header text-dark py-4 text-center">
+              Postavljanje Plocica
+            </h5>
+            <p class="text-dark h4">
+              Keramicarski radovi su vazni zavrsni radovi koji uz ostalne
+              zavrsne radove objektu daju zavrsni izgled i osobnost.Da bi se
+              keramicarski radovi uredno i pedantno napravili vazno je da ih
+              rade kvalitetni i iskusni keramicari.Keramicari obavljaju
+              zahtjevne radove za koje su potrebne godine ucenja i savladavanja
+              tehnike kojom bi zavrsni rezultat radova bio kvalitetan i
+              zadovoljavajuci.Keramicari svoj posao moraju obavljati pedantnoi
+              temeljito, jer je svaka greska vidljiva.
+            </p>
+          </div>
+          <div class="operations__content operations__content--3">
+            <h5 class="operations__header text-dark py-4 text-center">
+              Fugiranje
+            </h5>
+            <p class="text-dark h4">
+              Prilikom opremanja kupaonice treba uzeti u obzir da se radi o
+              prostoru koji je izlozen vlazi.Zato treba birati kvalitetna
+              rjesenja i planirati svaki detalj. Vrlo je bitan izbor
+              odgovarajuceg ljepila,kao i mase za fugiranje.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ///////////////////// -->
+
+    <!-- Slider -->
+
+    <section id="Radovi" class="section">
+      <div class="container-lg">
+        <h1 class="text-center text-info">Slike Radova</h1>
+        <p class="text-muted text-center py-2 h3">
+          Keramičke pločice traju desetljećima i otporne su na najteža habanja
+          koja možete podnijeti
+        </p>
+        <div class="slider ">
+          <div class="slide">
+            <img 
+            src="final-images/final-image-one.jpg" 
+             alt=""/>
+             </div>
+          <div class="slide">
+            <img 
+           src="final-images/final-image-one.jpg" 
+            alt="" />
+          </div>
+          <div class="slide">
+            <img 
+         src="final-images/final-image-one.jpg" 
+            alt="" />
+          </div>
+          <div class="slide">
+            <img
+           src="final-images/final-image-one.jpg"
+          alt="" />
+          </div>
+          <div class="slide">
+            <img 
+           src="final-images/final-image-one.jpg" 
+           alt=""/>
+             </div>
+          <div class="slide">
+            <img 
+           src="final-images/final-image-one.jpg" 
+           alt="" />
+          </div>
+          <div class="slide">
+            <img 
+          src="final-images/final-image-one.jpg" 
+           alt="" />
+          </div>
+          <div class="slide">
+            <img
+         src="final-images/final-image-one.jpg"
+              alt="" />
+          </div>
+
+          <button class="slider__btn slider__btn--left bg-info">&larr;</button>
+          <button class="slider__btn slider__btn--right bg-info">&rarr;</button>
+        </div>
+      </div>
+    </section>
+    <!-- ///////////////// -->
+    <!-- Contact Section -->
+    <section id="Kontakt" class="section">
+      <div class="container-lg">
+        <h1 class="text-center my-3 py-1 text-info">Kontakt</h1>
+        <!-- Form -->
+        <form
+          action="https://formsubmit.co/maidsejdinovic3@gmail.com"
+          method="POST"
+          class="row g-3 my-5 needs-validation"
+          novalidate
+        >
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">Ime</label>
+            <input
+              type="text"
+              name="Name"
+              class="form-control"
+              id="validationTooltip01"
+              placeholder="Maid"
+              required
+            />
+            
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">Prezime</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationTooltip02"
+              placeholder="Sejdinovic"
+              required
+            />
+         
+          </div>
+          <div class="col-md-4 position-relative">
+            <label
+              for="validationTooltipUsername"
+              type="Email"
+              name="Email"
+              class="form-label"
+              required
+              >Email</label
+            >
+            <div class="input-group has-validation">
+              <span
+                class="input-group-text"
+                id="validationTooltipUsernamePrepend"
+                >@</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationTooltipUsername"
+                aria-describedby="validationTooltipUsernamePrepend"
+                required
+              />
+             
+            </div>
+          </div>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label">Poruka</label>
+            <textarea
+              type="text"
+              name="Message"
+              placeholder="Vasa Poruka"
+              class="form-control"
+              id="validationTooltip03"
+              required
+            ></textarea>
+
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label">Drzava</label>
+            <select class="form-select" id="validationTooltip04" required>
+              <option selected disabled value="">Izaberi...</option>
+              <option>Bosna I Hercegovina</option>
+              <option>Srbija</option>
+              <option>Hrvatska</option>
+            </select>
+            
+          </div>
+
+          <div class="col-12">
+            <button class="btn btn-info" type="submit">Posalji Poruku</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- ///////////////////////// -->
+    <!-- Footer -->
+    <section id="footer" class="section">
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#Pocetna" class="nav-link px-2 text-dark">Pocetna</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Onama" class="nav-link px-2 text-dark">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Cijena" class="nav-link px-2 text-dark">Cijena</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Radovi" class="nav-link px-2 text-dark">Radovi</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Kontakt" class="nav-link px-2 text-dark">Kontakt</a>
+            </li>
+          </ul>
+          <p class="text-center text-dark">© 2022 BTS Keramicar</p>
+        </footer>
+      </div>
+    </section>
+
+    <!-- ///////////////////////////////// -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4 text-primary" id="exampleModalLabel">
+              Kontaktirajte Nas <br />
+              <p class="text-muted text-start fs-6">
+                Odgovaramo u najkracem mogucem roku
+              </p>
+            </h1>
+            <br />
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="modal__form"
+            action="https://formsubmit.co/maidsejdinovic3@gmail.com"
+            method="POST"
+            novalidate>
+              <label">Ime</label>
+              <input type="text" />
+              <label>Prezime</label>
+              <input type="text" />
+
+              <label>Vasa Poruka</label>
+              <input type=""
+              name="Message"
+              required/>
+              <button class="btn btn-primary">Posalji Poruku</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Zatvori
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Script link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
